@@ -33,3 +33,11 @@ describe '#reverse_string' do
   end
   
 end
+
+describe '#united_winning' do
+  it 'Ruto win from man u outcome'
+    expect(united_winning('true').to eq('ruto wins!'))
+    expect(united_winning('false').to eq('ruto fails!'))
+    united_winning(false)
+  end
+end

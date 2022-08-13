@@ -37,3 +37,12 @@ def reverse_string(str)
   end
   return string_rev
 end
+
+def united_winning(unitedwin)
+  # unitedwin = false
+  if unitedwin == true
+    puts "ruto is the 5th president"
+  else
+    puts "Raila Tibiim!"
+  end
+end
